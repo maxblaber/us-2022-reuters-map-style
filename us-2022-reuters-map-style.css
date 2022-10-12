@@ -30,6 +30,10 @@ div.table.flex-child {
 div.map.flex-child {
   width: 100% !important;
 }
+
+div.embedded {
+  overflow: hidden !important;
+}
 /*
  * The following CSS variables control all colours and 
  * font-families on tables and maps in embeds.
