@@ -31,6 +31,9 @@ div.map.flex-child {
   width: 100% !important;
 }
 
+div.office-body-container-senate {
+  overflow: hidden;
+}
 /*
  * The following CSS variables control all colours and 
  * font-families on tables and maps in embeds.
