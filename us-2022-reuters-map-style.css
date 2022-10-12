@@ -31,8 +31,8 @@ div.map.flex-child {
   width: 100% !important;
 }
 
-div.office-body-container {
-  overflow: hidden;
+div.state-map-wrapper {
+  overflow: hidden !important;
 }
 /*
  * The following CSS variables control all colours and 
@@ -41,7 +41,6 @@ div.office-body-container {
 
 
 div#client-style-override {
-  overflow: hidden !important;
   --republicanBgd: #fcdcdf;
   --republicanLead: #f4b3b0;
   --republicanScale01: #feb6ac;
