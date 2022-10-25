@@ -13,7 +13,7 @@
  * your custom styles.
  */
 
-body {
+ body {
 }
 
 html {
@@ -32,8 +32,9 @@ div.map.flex-child {
 }
 
 div.state-map-wrapper {
-  overflow: hidden !important;
+  height: 750px;
 }
+
 /*
  * The following CSS variables control all colours and 
  * font-families on tables and maps in embeds.
@@ -75,4 +76,5 @@ div#client-style-override {
   --fontFamilyDisplay: 'BBC Reith Sans';
   --fontFamilyMonospace: 'BBC Reith Sans', monospace;
   --fontFamilySansSerif: 'BBC Reith Sans';
+  --bs-body-bg: 'transparent';
 }
