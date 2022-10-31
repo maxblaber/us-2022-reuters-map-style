@@ -32,6 +32,10 @@ div.table.flex-child {
     width: 0% !important;
   }
 
+  div.special-elex-title {
+    display: none !important;
+  }
+
   div.map.flex-child {
     width: 100% !important;
   }
