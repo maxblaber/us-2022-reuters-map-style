@@ -31,7 +31,6 @@ div.table.flex-child {
     visibility: hidden !important;
     width: 0% !important;
   }
-
   h3 {
     display: none !important;
   }
@@ -43,11 +42,17 @@ div.table.flex-child {
   div.office-body-container {
     /* width: 900px; */
     margin: auto;
+    border-bottom: none !important;
+  }
+  div.office-body-container:last-child {
+    visibility: false !important;
+  }
+  div.map-layout-navigation {
+    visibility: hidden !important;
   }
 
-  div.map-layout-navigation {
-    bottom: 0px;
-    position: absolute;
+  div.zoom-carto-controls {
+    visibility: hidden !important;
   }
 /* ********************* */
 
@@ -63,6 +68,7 @@ html {
 div#client-style-override {
   --republicanScale04: #cd181c;
   --democratScale04: #0a6aa6;
+  --noElection: #cccccc;
 
   --tableBgd: #ffffff;
 
