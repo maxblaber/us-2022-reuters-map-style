@@ -45,7 +45,7 @@ div.table.flex-child {
     border-bottom: none !important;
   }
   div.office-body-container:first-child {
-    visibility: hidden !important;
+    display: none !important;
   }
   div.map-layout-navigation {
     visibility: hidden !important;
