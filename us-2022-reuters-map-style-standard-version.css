@@ -44,7 +44,7 @@ div.table.flex-child {
     margin: auto;
     border-bottom: none !important;
   }
-  div.office-body-container:last-child {
+  div.office-body-container:nth-child(2) {
     visibility: hidden !important;
   }
   div.map-layout-navigation {
