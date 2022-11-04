@@ -49,6 +49,8 @@ div.table.flex-child {
   }
   div.map-layout-navigation {
     visibility: hidden !important;
+    bottom: 0%;
+    position: absolute;
   }
 
   div.zoom-carto-controls {
