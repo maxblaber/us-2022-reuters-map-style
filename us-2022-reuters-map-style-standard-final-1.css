@@ -44,8 +44,8 @@ div.table.flex-child {
     margin: auto;
     border-bottom: none !important;
   }
-  div.office-body-container:first-child {
-    display: none !important;
+  div.office-body-container:nth-child(2) {
+    visibility: hidden !important;
   }
   div.map-layout-navigation {
     visibility: hidden !important;
@@ -70,7 +70,7 @@ html {
 div#client-style-override {
   --republicanScale04: #cd181c;
   --democratScale04: #0a6aa6;
-  --noElection: #cccccc;
+  --noResults: #cccccc;
 
   --tableBgd: #ffffff;
 
