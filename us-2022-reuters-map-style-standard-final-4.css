@@ -57,8 +57,12 @@ div.table.flex-child {
     visibility: hidden !important;
   }
 
-  text.city-label {
+  text.label {
     font-size: 1.4rem !important;
+  }
+
+  text.city-label {
+    font-size: 1.2rem !important;
   }
 /* ********************* */
 
