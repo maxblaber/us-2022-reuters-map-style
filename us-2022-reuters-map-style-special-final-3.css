@@ -44,8 +44,8 @@ div.table.flex-child {
     margin: auto;
     border-bottom: none !important;
   }
-  div.office-body-container:nth-child(2) {
-    visibility: hidden !important;
+  div.office-body-container:first-child {
+    display: none !important;
   }
   div.map-layout-navigation {
     visibility: hidden !important;
@@ -56,9 +56,9 @@ div.table.flex-child {
   div.zoom-carto-controls {
     visibility: hidden !important;
   }
-
-  .city-label {
-    font-size: 1.4rem;
+  
+  text.city-label {
+    font-size: 1.4rem !important;
   }
 /* ********************* */
 
