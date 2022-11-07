@@ -44,8 +44,8 @@ div.table.flex-child {
     margin: auto;
     border-bottom: none !important;
   }
-  div.office-body-container:first-child {
-    display: none !important;
+  div.office-body-container:nth-child(2) {
+    visibility: hidden !important;
   }
   div.map-layout-navigation {
     visibility: hidden !important;
@@ -59,7 +59,9 @@ div.table.flex-child {
 
   .spinner-container{
     background-color:rgba(176, 178, 180, 0) !important;
+    display: none !important;
   }
+    
 /* ********************* */
 
 body {
