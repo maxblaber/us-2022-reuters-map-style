@@ -57,10 +57,10 @@ div.table.flex-child {
     visibility: hidden !important;
   }
 
-  .spinner-container{
-    background-color:rgba(176, 178, 180, 0) !important;
+  .spinner-container .spinner {
     display: none !important;
   }
+  
     
 /* ********************* */
 
